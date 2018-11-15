@@ -1,11 +1,13 @@
 import React from 'react';
-// import Page from '../components/layouts'
+import MasterLayout from '../components/layouts/MasterLayout';
+import { ArticleList, Article } from '../components/ArticleContent';
 
-// import { basicColumnStyle } from '../config/constants'
 const Index = () => (
-  <div>
-    <h1>Me Doyin</h1>
-  </div>
+  <MasterLayout>
+    <ArticleList>
+      <Article />
+    </ArticleList>
+  </MasterLayout>
 );
 
 export default Index;

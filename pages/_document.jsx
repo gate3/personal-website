@@ -16,17 +16,15 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
+          <meta charSet="UTF-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="stylesheet" href="../static/css/normalize.css" />
-          <link rel="stylesheet" href="../static/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-          <link rel="stylesheet" href="../static/css/style1.css" />
-          <script src="../static/js/modernizr.custom.js" />
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script src="../static/js/classie.js" />
-          <script src="../static/js/main.js" />
+          {/* <script src="../static/js/classie.js" />
+          <script src="../static/js/main.js" /> */}
         </body>
       </html>
     );

@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "name": "nextjs",
+    "builds": [
+        { "src": "package.json", "use": "@now/next" }
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "engines": {
+        "node": "10.11.0"
+    }
+}

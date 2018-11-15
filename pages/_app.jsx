@@ -18,7 +18,7 @@ export default class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>The full stack god</title>
+          <title>Doyin Olarewaju</title>
           <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/gate3/my-site-assets/css/normalize.css" />
           <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/gate3/my-site-assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
           <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/gate3/my-site-assets/css/style1.css" />
